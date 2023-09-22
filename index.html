@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+<script defer src="simple-adaptive-slider.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // активация слайдера
+    new ItcSimpleSlider('.itcss', {
+      loop: false,
+      autoplay: true,
+      swipe: true
+    });
+  });
+</script>
+    <title>Аренда китайцев</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-line">
+                <a href="index.html"><div class="header_logo">
+                    <img class="header_png" src="./images/icons8-tesla-model-x-48.png" alt="tesla">
+                    <h1 class="header_text">Vlad-rent</h1>
+                </div></a>
+                <div class="nav">
+                    <a class="nav_item" href="@">Автопарк</a>
+                    <a class="nav_item" href="@">Условия</a>
+                    <a class="nav_item" href="@">Контакты</a>
+                    <a class="nav_item" href="tel:@">88005535345</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+      <div class="itcss">
+        <div class="itcss__wrapper">
+          <div class="itcss__items">
+            <div class="itcss__item">
+              <img src="./images/002.png" alt="">
+             </div>
+            <div class="itcss__item">
+              <img src="./images/2312png (1).jpg" alt="">
+             </div>
+            <div class="itcss__item">
+              <img src="./images/321312 (1).jpg" alt="">
+             </div>
+            <div class="itcss__item">
+              <img src="./images/8240aaae04d0f4243509e0d80b35e27f.jpg" alt="">
+             </div>
+          </div>
+        </div>
+        <button class="itcss__btn itcss__btn_prev" role="button" data-slide="prev"></button>
+        <button class="itcss__btn itcss__btn_next" role="button" data-slide="next"></button>
+      </div>
+    </section>
+    <footer>
+    </footer>
+</body>
+<script src="simple-adaptive-slider (1).js"></script>
+</html>
